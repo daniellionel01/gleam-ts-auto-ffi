@@ -1,0 +1,12 @@
+name = "ts_auto_ffi"
+version = "1.0.0"
+
+description = "Generate FFI Gleam Functions for TypeScript code automatically"
+licences = ["Apache-2.0"]
+repository = { type = "github", user = "daniellionel01", repo = "gleam_ts_auto_ffi" }
+
+[dependencies]
+gleam_stdlib = ">= 0.34.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
