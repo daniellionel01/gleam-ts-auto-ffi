@@ -7,6 +7,7 @@ repository = { type = "github", user = "daniellionel01", repo = "gleam_ts_auto_f
 
 [dependencies]
 gleam_stdlib = ">= 0.34.0 and < 2.0.0"
+hexdocs_offline = ">= 1.0.5 and < 2.0.0"
 
 [dev-dependencies]
 gleeunit = ">= 1.0.0 and < 2.0.0"
