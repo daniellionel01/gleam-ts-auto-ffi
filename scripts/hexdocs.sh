@@ -1,2 +1,2 @@
 #!/bin/bash
-gleam run -m hexdocs_offline
+gleam run -m dev/hexdocs
