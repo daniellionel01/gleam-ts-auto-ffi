@@ -1,5 +1,8 @@
-import gleam/io
+import ts_auto_ffi/main
 
 pub fn main() {
-  io.println("Hello from ts_auto_ffi!")
+  main.generate_ffi(
+    ts_path: "./sample_simple.ts",
+    out_path: "./src/gen/simple.gleam",
+  )
 }

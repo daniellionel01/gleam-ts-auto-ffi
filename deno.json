@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "ts-morph": "npm:ts-morph@^24.0.0"
+  }
+}
