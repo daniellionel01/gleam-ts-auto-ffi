@@ -1,6 +1,6 @@
 import { Project, Type } from "ts-morph";
 
-export function generate(typescript: string, importPath: string): string {
+export function main(typescript: string, importPath: string): string {
   const project = new Project({
     useInMemoryFileSystem: true,
   });
@@ -33,9 +33,11 @@ export function generate(typescript: string, importPath: string): string {
 function mapTypeToGleam(type: Type) {
   const name = type.getText();
   if (name === "number") {
-    return "Number";
+    return "Float";
   } else if (name === "string") {
     return "String";
+  } else if (name === "boolean") {
+    return "Bool";
   }
 
   return "Dynamic";
