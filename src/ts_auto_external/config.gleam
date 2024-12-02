@@ -1,6 +1,6 @@
 import filepath
 import gleam/string
-import ts_auto_ffi/internal/lib
+import ts_auto_external/internal/lib
 
 pub fn default_out_dir() {
   filepath.join(lib.src(), "gen")

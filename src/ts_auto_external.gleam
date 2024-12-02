@@ -2,8 +2,8 @@ import filepath
 import gleam/io
 import gleam/list
 import simplifile
-import ts_auto_ffi/config
-import ts_auto_ffi/internal/lib
+import ts_auto_external/config
+import ts_auto_external/internal/lib
 
 pub fn main() {
   generate_ffi_auto()
