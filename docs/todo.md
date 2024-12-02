@@ -19,6 +19,7 @@
   - [ ] any
   - [ ] promise -> result
     - [ ] but what error type?
+  - [ ] function ...rest parameter
 
 ## Codebase
 - [ ] alternative package name (not ..._ffi)
