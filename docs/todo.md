@@ -10,6 +10,8 @@
   - [ ] generics?
   - [ ] scalar values
   - [ ] nullish values (void, null, undefined, never)
+    - [ ] null is special -> "//js(null)"
+    - [ ] undefined -> Nil
   - [ ] optional as gleam/option
   - [ ] array, record
   - [ ] class
@@ -20,6 +22,8 @@
   - [ ] promise -> result
     - [ ] but what error type?
   - [ ] function ...rest parameter
+    - [ ] auto wrap?
+  - [ ] auto wrap Result & Option types
 
 ## Codebase
 - [ ] alternative package name (not ..._ffi)

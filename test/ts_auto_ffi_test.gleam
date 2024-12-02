@@ -1,14 +1,14 @@
 import gleeunit
 import gleeunit/should
 
-import gen/scalar_types
+import gen/sample_scalar_types
 
 pub fn main() {
   gleeunit.main()
 }
 
 pub fn sample_simple_test() {
-  scalar_types.add(5.0, 8.0)
+  sample_scalar_types.add(5.0, 8.0)
   |> should.equal(13.0)
 }
 
